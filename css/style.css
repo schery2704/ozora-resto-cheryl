@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Old+Mincho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Old Mincho', serif;
+    
+}
+
+body {
+    background-image: linear-gradient(to bottom, #3e2904,#3e2904);
+}
+
+.px-35 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto
+}
+
+#top {
+    position: relative;
+}
+
+#top img {
+    display: block;
+    width: 100%;
+}
+
+#menu {
+    margin-top: 0px;
+    background-image: url(../img/background\ menu.png);
+}
+
+#menu ul{
+    display: flex;
+    padding: -1px;
+    justify-content: space-between;
+    list-style: none 
+}
+
+#menu ul li{
+    width: 33%;
+}
+
+#menu ul li img{
+    width: 100%;
+    display: block;
+}
+
+#menu a:hover {
+    opacity: 0.7;
+}
+
+.background-tamago{
+    position: relative;
+}
+
+.section-menu-1{
+    position: absolute;
+    width: 100%;
+    max-width: 990px;
+    top: 7%;
+    padding-left: 345px;
+}
+
+.ramen1{
+    position: absolute;
+    width: 100%;
+    max-width: 990px;
+    top: 5%;
+}
+
+.text-menu-1{
+    position: absolute;
+    width: 100%;
+    margin-left: 465px;
+    margin-bottom: 50%;
+    font-size: 32px;
+    top: 13%;
+    color: #9d6d18;
+    align-items: center;
+}
+
+.content-menu-1{
+    position: absolute;
+    width: 100%;
+    margin-left: -50px;
+    margin-bottom: 50%;
+    font-size: 24px;
+    top: 114%;
+    color: #000000;
+    align-items: center;
+}
+
+.background-hirugao{
+    position: relative;
+}
+
+.section-menu-2{
+    position: absolute;
+    width: 100%;
+    max-width: 990px;
+    top: 59%;
+    padding-left: 0px;
+}
