@@ -81,8 +81,8 @@ body {
     width: 100%;
     margin-left: 465px;
     margin-bottom: 50%;
-    font-size: 32px;
-    top: 13%;
+    font-size: 17px;
+    top: 19%;
     color: #9d6d18;
     align-items: center;
 }
@@ -90,10 +90,10 @@ body {
 .content-menu-1{
     position: absolute;
     width: 100%;
-    margin-left: -50px;
+    margin-left: 404px;
     margin-bottom: 50%;
     font-size: 24px;
-    top: 114%;
+    top:38%;
     color: #000000;
     align-items: center;
 }
@@ -101,11 +101,65 @@ body {
 .background-hirugao{
     position: relative;
 }
+    
+.leaf-1{
+    position: absolute;
+    width: 100%;
+    max-width: 990px;
+    top: 89%;
+    padding-left: 39px;
+}
+
 
 .section-menu-2{
     position: absolute;
     width: 100%;
     max-width: 990px;
-    top: 59%;
+    top: 92%;
     padding-left: 0px;
+}
+
+.ramen-hirugao{
+    position: absolute;
+    width: 100%;
+    max-width: 990px;
+    top: 90%;
+    padding-left: 572px;
+}
+
+.text-menu-2{
+    position: absolute;
+    width: 100%;
+    margin-left: 71px;
+    margin-bottom: 0%;
+    font-size: 17px;
+    top: 98%;
+    color: #9d6d18;
+    align-items: center;
+}
+
+.content-menu-2{
+    position: absolute;
+    width: 100%;
+    margin-left: 60px;
+    margin-bottom: 50%;
+    font-size: 24px;
+    top:106%;
+    color: #000000;
+    align-items: center;
+}
+
+.note-menu-2{
+    position: absolute;
+    width: 100%;
+    margin-left: 33px;
+    margin-bottom: 50%;
+    font-size: 21px;
+    top:122%;
+    color: #000000;
+    align-items: center;
+}
+
+.background-soranoiro{
+    position: relative;
 }
