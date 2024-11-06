@@ -57,111 +57,210 @@ body {
     opacity: 0.7;
 }
 
-.background-tamago{
-    position: relative;
+#ramentamago {
+    background: url(../img/background\ section\ 1.png);
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 97px;
 }
+
 
 .section-menu-1{
-    position: absolute;
-    width: 100%;
-    max-width: 990px;
-    top: 7%;
-    padding-left: 345px;
+    background: url(../img/section\ menu\ 1.png) no-repeat right;
+    width: 65%;
+    text-align: center;
+    max-width: 646px;
+    min-height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    order: 2;
 }
 
-.ramen1{
+.ramen-tamago{
+    /*
     position: absolute;
-    width: 100%;
+    top: 5%;*/
+    width: 35%;
     max-width: 990px;
-    top: 5%;
+    order: 1;
+    position: relative;
+    padding-top: 50px;
+    
 }
 
 .text-menu-1{
+    /*
     position: absolute;
+    top: 19%;
+
     width: 100%;
     margin-left: 465px;
-    margin-bottom: 50%;
+    margin-bottom: 50%;*/
     font-size: 17px;
     font-weight: bold;
-    top: 19%;
     color: #9d6d18;
     align-items: center;
 }
 
 .content-menu-1{
-    position: absolute;
+    /*position: absolute;
     width: 100%;
     margin-left: 404px;
     margin-bottom: 50%;
-    font-size: 24px;
-    top:38%;
+    top:38%;*/
     color: #000000;
+    font-size: 24px;
     align-items: center;
 }
 
-.background-hirugao{
-    position: relative;
+.note-menu-1{
+    font-size: 18px;
+    color: #000000;
+    order: 3;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 14px;
 }
-    
-.leaf-1{
-    position: absolute;
-    width: 100%;
-    max-width: 990px;
-    top: 89%;
-    padding-left: 39px;
+
+    /*font-size: 18px;
+     color: #000000;
+     order: 3;
+     padding-right: 200px;
+     padding-top: 50px;*/
+
+
+#hirugao {
+    background: url(../img/background\ hirugao\ 2.png);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0 70px;
 }
 
 
 .section-menu-2{
-    position: absolute;
-    width: 100%;
-    max-width: 990px;
-    top: 92%;
-    padding-left: 0px;
+    background: url(../img/section\ menu\ 2.png) no-repeat right;
+    width: 64%;
+    text-align: center;
+    max-width: 646px;
+    min-height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 25px;
+    order: 1;
 }
 
 .ramen-hirugao{
-    position: absolute;
-    width: 100%;
+    width: 35%;
     max-width: 990px;
-    top: 90%;
-    padding-left: 572px;
+    padding-top: 40px;
+    order: 2;
+    position: relative;
+}
+
+.ramen-hirugao img{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 
 .text-menu-2{
-    position: absolute;
+    /*position: absolute;
     width: 100%;
     margin-left: 71px;
     margin-bottom: 0%;
+    top: 98%;*/
     font-size: 17px;
     font-weight: bold;
-    top: 98%;
     color: #9d6d18;
     align-items: center;
 }
 
 .content-menu-2{
+    /*
     position: absolute;
     width: 100%;
     margin-left: 60px;
-    margin-bottom: 50%;
-    font-size: 24px;
     top:106%;
+    margin-bottom: 50%;*/
+    font-size: 24px;
     color: #000000;
     align-items: center;
 }
 
 .note-menu-2{
-    position: absolute;
-    width: 100%;
-    margin-left: 33px;
-    margin-bottom: 50%;
-    font-size: 21px;
-    top:122%;
+    font-size: 18px;
+    color: #000000;
+    order: 3;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+
+#soranoiro {
+    background: url(../img/background\ section\ 3.png);
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.section-menu-3{
+    background: url(../img/section\ menu\ 3.png) no-repeat right;
+    width: 80%;
+    text-align: center;
+    max-width: 646px;
+    min-height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    order: 2;
+}
+
+.text-menu-3{
+    font-size: 17px;
+    font-weight: bold;
+    color: #9d6d18;
+    align-items: center;
+}
+
+.content-menu-3{
+    font-size: 19px;
     color: #000000;
     align-items: center;
 }
 
-.background-soranoiro{
+.ramen-soranoiro{
+    width: 34%;
+    max-width: 990px;
+    order: 1;
     position: relative;
+}
+
+
+.ramen-soranoiro img{
+    position: absolute;
+    top: 40px;
+}
+
+.note-menu-3{
+    font-size: 18px;
+    color: #000000;
+    order: 3;
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 436px;
+}
+
+#kupon{
+    background: url(../img/background\ kupon.png);
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+
 }
