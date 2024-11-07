@@ -205,7 +205,7 @@ body {
     background: url(../img/background\ section\ 3.png);
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 70px;
+    padding: 80px 0 80px;
 }
 
 .section-menu-3{
@@ -245,7 +245,7 @@ body {
 
 .ramen-soranoiro img{
     position: absolute;
-    top: 40px;
+    top: 80px;
 }
 
 .note-menu-3{
@@ -254,13 +254,48 @@ body {
     order: 3;
     align-items: center;
     padding-left: 70px;
-    padding-top: 436px;
+    padding-top: 120px;
 }
 
 #kupon{
     background: url(../img/background\ kupon.png);
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
+}
 
+.kupon-button{
+    display: flex;
+    padding: 175px;
+    justify-content: space-between;
+    list-style: none 
+}
+
+.kupon-button a:hover {
+    opacity: 0.7;
+}
+
+#akses{
+    background: url(../img/akses-bg.png);
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 115px;
+}
+
+.text-akses{
+    font-size: 40px;
+    color: #7c4f0f;
+    order: 1;
+    align-items: center;
+    padding-left: 144px;
+    padding-top: 190px;
+}
+
+.note-akses{
+    font-size: 23px;
+    color: #7c4f0f;
+    order: 1;
+    align-items: center;
+    padding-left: 141px;
+    padding-top: 20px;
 }
